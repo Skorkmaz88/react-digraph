@@ -125,6 +125,7 @@
     "package": "npm-run-all clean lint test build build:prod",
     "analyze-bundle": "babel-node ./tools/analyzeBundle.js"
   },
+  "types": "./typings/index.d.ts",
   "jest": {
     "testURL": "http://localhost",
     "moduleFileExtensions": [
